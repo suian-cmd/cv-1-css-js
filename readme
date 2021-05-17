@@ -1,0 +1,6 @@
+parcel src/index.html   开发环境下运行
+
+parcel build src/index.html --public-url .  生产环境下
+cd dist
+http-server -c-1
+index.html
